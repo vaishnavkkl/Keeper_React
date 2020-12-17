@@ -1,0 +1,117 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	font-family: 'Poppins', sans-serif;
+	background-color:#cfd3ce;
+	
+}
+body{
+	background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/church.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+}
+
+header{
+	color: white;
+	background-color: #f5ba13;
+	padding:20px 0 20px 40px;
+	margin:0 0 20px 0;
+	box-shadow: 10px 5px 5px grey;
+}
+
+footer{
+	padding-top: 300px;
+	padding-bottom: 0;
+	text-align: center;
+	flex-grow: 0;
+	
+	margin:auto;
+}
+
+footer p {
+color: grey;
+padding-bottom: 10px;
+}
+
+.note {
+	background-color:white ;
+	padding: 30px;
+	width:200px;
+	border-radius:7px;
+	margin:20px;
+	box-shadow: 2px 2px 2px 2px #aaaaaa;
+	display: inline-block;
+
+
+}
+.note p{
+	font-size:1.1rem;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.note-align{
+	display: flex;
+}
+.createArea{
+
+	position: relative;
+	text-align: center;
+	background-color:white ;
+	padding: 30px;
+	width:400px;
+	border-radius:7px;
+	margin:auto;
+	box-shadow: 2px 2px 2px 2px #aaaaaa;
+	
+
+}
+.title{
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-top-style:hidden;
+	border-bottom-style: hidden;
+	font-size:1.5rem;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 10px;
+	width:300px;
+}
+.content{
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-top-style:hidden;
+	border-bottom-style: hidden;
+    font-size:1.5rem;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-family: 'Poppins', sans-serif;
+	width:300px;
+	padding-left: 10px;
+
+	resize:none;
+}
+
+.astext {
+	float: right;
+
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color:red;
+    font-style: bold;
+}
+.add-button{
+	 background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color:green;
+    font-style: bold;
+    
+}
